@@ -1,37 +1,25 @@
 .navigation {
-    display: flex;
     width: 100%;
     height: 40px;
-    float: right;
     background-color: gray;
-}
-
-nav {
-    float: right;
-    margin: auto;
-}
-
-.nav_button {
-    width: 33.33%;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: antiquewhite;
-    text-align: center;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+    z-index: 2;
 }
 
 .nav-links {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
 .nav-links li {
+    text-align: center;
     display: inline-block;
-    margin-left: 20px;
+    width: 33%;
 }
 
 .nav-links li a {
+    width: 100%;
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
@@ -63,19 +51,38 @@ nav {
 
 .other {
     width: 100%;
+    height: 600px;
     margin: auto;
+    background-color: antiquewhite;
+}
+
+.other h2 {
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    text-align: center;
 }
 
 .lang_prog {
     height: 300px;
     display: flex;
     margin-left: auto;
+    margin-top: 100px;
 }
 
 .img_prog {
     margin: auto;
 }
 
-h2 {
+.footer{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    background-color: gray;
+    
+}
+
+.footer p {
     text-align: center;
+    display: inherit;
 }
