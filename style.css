@@ -75,11 +75,22 @@
 }
 
 .footer {
-  height: 200px;
+  display: block;
   width: 100%;
-  padding-bottom: 10px;
   background-color: gray;
 }
-.image-text {
+
+.box-logo {
+  display: inline;
+  margin-left: 25%;
+}
+
+.box-logo p {
+  display: inline;
   text-align: center;
+}
+
+.box-logo img {
+  display: inline;
+  vertical-align: middle;
 }
